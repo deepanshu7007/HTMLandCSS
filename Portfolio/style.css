@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans',sans-serif;
+    box-sizing: border-box;
+    transition: 1000ms ease;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 45px;
+    align-items: center;
+}
+.list
+{
+    list-style-type: none;
+    display: flex;
+    gap: 5vw;
+}
+.btn{
+    background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.name:hover
+{
+    color: aqua;
+    transition: 1000ms ease;
+    
+}
+.body{
+    font-size: 60px;
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 8%
+}
+.body-text
+{
+    word-spacing: 5px;
+    margin-bottom: 20px;
+    letter-spacing: 5px;
+}
+.icons
+{
+    text-align: center;
+    padding: 20px;
+    letter-spacing: 20px;
+}
+.profileImg
+{
+    
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
